@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP Pet- Mèo</title>
+    <link rel="shortcut icon" href="../../images/MP Pet.png" type="images">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <style>
+        #h1-meo{
+        color: #329bdc;
+        font-weight: bold;
+        font-family: cursive;
+        text-align: center;
+        }
+        #p-meo{
+            text-align: justify;
+        }
+        #ul-meo{
+            list-style: decimal;
+        }
+        .help-hinhanh{
+            width: 250px;
+            height: 250px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        #li-meo{
+            font-size: 20px;
+            font-weight: bold;
+            color: #f069de;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="fixed-top navbar navbar-expand-lg navbar-light" style="height: 30px; background-color: rgb(148,95,81);">
+        <div class="col-sm-9">
+            <a href="" class="btn-register me-2 text-decoration-none text-white" style="margin-left: 25px;">Đăng Ký</a>
+            <span class="me-1 fw-bold">|</span>
+            <a href="" class="btn-login text-decoration-none text-white">Đăng Nhập</a>
+        </div>
+        <div class="offset-sm-1">
+            <div>
+                <a href="#" class="text-decoration-none me-4 link-light">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="#" class="text-decoration-none me-4 link-light">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="#" class="text-decoration-none me-4 link-light">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="#" class="text-decoration-none me-4 link-light">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="fixed-top navbar navbar-expand-lg navbar-light" style="margin-top: 30px; background-color: #f1e8d9;">
+
+        <div class="container-fluid">
+
+            <!-- NÚT MENU -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"
+                aria-controls="navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- LOGO -->
+            <a href="index.html"><img class="navbar-brand" style="width: 70px; height: 70px;"
+                    src="../../images/MP Pet.png" alt=""></a>
+
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="col-7 navbar-nav">
+                    <li class="nav-item">
+                        <!-- <a class="nav-link" href="#">Trang chủ</a> -->
+                        <a class="btn btn-secondary m-1" href="index.php" role="button">Trang chủ</a>
+
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                            <a class="btn btn-secondary dropdown-toggle m-1" href="index.php?quanly=thucung&id=1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Thú cưng
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Mèo</a></li>
+                                <li><a class="dropdown-item" href="#">Chó</a></li>
+                                <li><a class="dropdown-item" href="#">Thỏ</a></li>
+                                <li><a class="dropdown-item" href="#">Hamter</a></li>
+                            
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Các loài thú cưng khác</a></li>
+                            </ul>
+                        </li> -->
+
+                    <li class="nav-item dropdown">
+                        <a class="btn btn-secondary dropdown-toggle m-1" href="index.php?quanly=thucung&id=1"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Thú cưng
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./meo.html">Mèo</a></li>
+                            <li><a class="dropdown-item" href="./cho.html">Chó</a></li>
+                            <li><a class="dropdown-item" href="#">Thỏ</a></li>
+                            <li><a class="dropdown-item" href="#">Hamter</a></li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Các loài thú cưng khác</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="btn btn-secondary m-1 dropdown-toggle" href="index.php?quanly=muahang&id=1"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Mua hàng
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Thức ăn</a></li>
+                            <li><a class="dropdown-item" href="#">Phụ kiện</a></li>
+                            <li><a class="dropdown-item" href="#">Vệ sinh, chăm sóc</a></li>
+                            <li><a class="dropdown-item" href="#">Nhà, nệm</a></li>
+                            <li><a class="dropdown-item" href="#">Thuốc</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-secondary m-1" href="index.php?quanly=hoidap">Hỏi đáp</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-secondary m-1" href="index.php?quanly=tintuc">Tin tức</a>
+                    </li>
+                </ul>
+                <div class="col-5">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
+                        <button class="btn btn-outline-secondary me-2" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                        <button class="btn btn-outline-secondary" type="submit">
+                            <i class="bi bi-cart"></i>
+                        </button>
+                    </form>
+                </div>   
+            </div>
+
+        </div>
+    </nav>
+    <hr />
+    <hr />
+
+    <div class="container pt-2">
+        <img class="img-fluid pt-5" src="../../images/meo-html.png" alt="">
+        <h1 id="h1-meo" class="m-5">Những vật dụng cần thiết khi nuôi mèo</h1>
+        <div>
+            <p id="p-meo" class="lh-lg">
+                Bạn đang tất bật chuẩn bị để trở thành một “con sen”đích thực?
+                Bạn đang loay hoay không biết chú mèo của mình đang cần những vật dụng gì. Hãy cùng MP Pet tham khảo
+                những dụng cụ cần thiết dưới đây.
+            </p>
+            <ul id="ul-meo">
+                <li id="li-meo">Lồng vận chuyển mèo</li>
+                <div class="row">
+                    <div class="col-2 offset-2">
+                        <img class="help-hinhanh" src="../../images/balo dung cho meo.png" alt="">
+                    </div>
+
+                    <div class="col-6 offset-2">
+                        <img class="help-hinhanh" src="../../images/long cho meo(3).png" alt="">
+                    </div>
+                </div>
+                <p id="p-meo">
+                    Điều đầu tiên bạn cần là một chiếc lồng vận chuyển mèo, đây là một vật dùng quan trọng và thiết yếu,
+                    nhất là khi gia chủ là người có sở thích “phượt thủ”. Hãy đầu tư một chiếc lồng an toàn và chắc chắn
+                    với nhiều lỗ thông gió và lối vào dễ dàng để bạn đưa mèo ra vào thuận tiện.
+                </p>
+                <p id="p-meo">
+                    Một lưu ý nho nhỏ chính là: Bạn nên lót một chiếc thảm hay khăn mềm bên trong chiếc lồng để bé mèo
+                    cảm thấy thoải mái hơn trong quá trình vận chuyển.
+                </p>
+                <li id="li-meo">Thức ăn</li>
+                <div class="row">
+                    <div class="col-2 offset-2">
+                        <img class="help-hinhanh" src="../../images/thuc an meo(3).png" alt="">
+                    </div>
+
+                    <div class="col-6 offset-2">
+                        <img class="help-hinhanh" src="../../images/meo-dang-an.jpeg" alt="">
+                    </div>
+                </div>
+                <p id="p-meo">
+                    Vào từng giai đoạn khác nhau, bé mèo nhà bạn cũng cần bổ sung thêm nhiều loại thức ăn khác nhau,
+                    dưới đây là một số lưu ý dành cho bạn:
+                    <br><br>
+                    Đối với mèo con: Những em bé này cần nhiều chất béo và protein hơn mèo trưởng thành,
+                    vì đây là thời kỳ quan trọng để phát triển xương khớp cho các bé. Ngoài ra, không bao giờ
+                    được cho chúng ăn thịt sống và xương dù đã được nấu chín, những thứ này có thể làm làm tổn thương
+                    đến hệ miễn dịch và các cơ quan nội tạng bên trong.
+                    Mèo con từ ba tuần bắt buộc phải ăn thức ăn mềm và mèo từ tám tuần trở lên đã có thể ăn được đồ khô
+                    khá tốt.
+                    <br><br>
+                    Đối với mèo trưởng thành: Thức ăn cho mèo đóng hộp và cả thức ăn khô đều được ghi nhận là có thể
+                    cung cấp
+                    dinh dưỡng đầy đủ cho chúng nhưng tốt hơn hết vẫn là đồ hộp. Trong trường hợp bạn muốn “tự tay xuống
+                    bếp”,
+                    nên chuẩn bị cho chúng meaty bones (thịt sườn, xương còn dính thịt) nấu chín vì đây là nguồn cung
+                    cấp protein
+                    tuyệt vời nhất dành cho thú cưng.
+                    <br><br>
+                    Bạn cũng nên lưu ý luôn chuẩn bị nước sạch trong bát thường xuyên, làm sạch bát hàng ngày với các
+                    dụng cụ vệ sinh
+                    và đặt nó tránh xa “khu vực vui chơi” và “khu vực vệ sinh” của bé nhé!
+                </p>
+                <li id="li-meo">Giường</li>
+                <div class="row">
+                    <div class="col-2 offset-2">
+                        <img class="help-hinhanh" src="../../images/giuong-cho-meo.jpg" alt="">
+                    </div>
+
+                    <div class="col-6 offset-2">
+                        <img class="help-hinhanh" src="../../images/giuong-cho-meo(1).jpg" alt="">
+                    </div>
+                </div>
+                <p id="p-meo">
+                    Cũng giống như con người, một chú mèo cũng mong muốn được nghỉ ngơi tại “không gian riêng” mà
+                    đối với chúng là “lãnh địa bất khả xâm phạm”. Một chiếc giường có đệm mềm mại, ấm áp và thoải mái
+                    chính là
+                    sự lựa chọn lý tưởng cho em boss của bạn. Hãy đảm bảo chiếc giường bạn chọn đủ rộng để chúng có thể
+                    duỗi chân
+                    nhưng đủ nhỏ để tạo cảm giác an toàn cho bé.
+                </p>
+                <li id="li-meo">Khay vệ sinh</li>
+                <div class="row">
+                    <div class="col-2 offset-2">
+                        <img class="help-hinhanh" src="../../images/khay-vs-meo.jpg" alt="">
+                    </div>
+
+                    <div class="col-6 offset-2">
+                        <img class="help-hinhanh" src="../../images/khay-vs-meo(2).jpg" alt="">
+                    </div>
+                </div>
+                <p id="p-meo">
+                    Đây là một vật dụng nhất định phải có khi bạn muốn nuôi một em mèo.
+                    Khay sinh có rất nhiều hình dáng và mẫu mã nhưng thường được chia thành 3 loại chính:
+                    <br><br>
+                    Khay không nắp: là loại phổ biến và được nhiều người chọn mua nhất vì tính tiện nghi và giá thành
+                    rẻ hơn so với các loại khác. Nhưng khay không nắp đậy sẽ “chống chỉ định” với những chú mèo nghịch
+                    ngợm thích cào cát
+                    mỗi lần đi vệ sinh. Bạn chắc chắn không muốn mất thời gian dọn dẹp sau mỗi lần em ấy “giải quyết”
+                    đúng không nào?
+                    <br><br>
+                    Khay có nắp: khắc phục nhược điểm của loại không nắp, chiếc khay này được thiết kế để ngăn cát và
+                    “chất bẩn” rơi
+                    ra ngoài, hạn chế một số mùi khó chịu đồng thời giúp cho mèo có không gian riêng tư trong quá trình
+                    đi vệ sinh.
+                    Giá thành tất nhiên cao hơn loại không nắp.
+                    <br><br>
+                    Máy dọn cát tự động: đây là loại “sang-xịn-mịn” nhất hiện nay và hẳn chỉ dành cho “rich-cat”. Máy
+                    dọn dẹp tự động với
+                    cơ chế xới tung chất bẩn sau khi mèo “giải quyết” xong, sau đó nó sẽ tự động cho chất bẩn vào một
+                    khay riêng.
+                    Đến cuối ngày bạn chỉ cần mang khay này đi bỏ là được. Rất tiện lợi và tiết kiệm thời gian đúng
+                    không nào.
+                </p>
+                <li id="li-meo">Bàn cào</li>
+                <div class="row">
+                    <div class="col-2 offset-2">
+                        <img class="help-hinhanh" src="../../images/ban-cao-meo(2).jpg" alt="">
+                    </div>
+
+                    <div class="col-6 offset-2">
+                        <img class="help-hinhanh" src="../../images/ban-cao-meo.jpg" alt="">
+                    </div>
+                </div>
+                <p id="p-meo">
+                    Cào móng là một trong những thói quen và nhu cầu bẩm sinh của mèo. Cho nên, nếu không chuẩn bị một
+                    bàn cào thì bất kỳ
+                    đồ đạc nào trong nhà của bạn sẽ trở thành đối tượng để chúng “dũa móng”.
+                    <br><br>
+                    Bạn nên chuẩn bị một bàn cào bằng bìa cứng hoặc cột cào bằng dây thừng để thỏa mãn sở thích này của
+                    các bé.
+                </p>
+                <div class="card-header bg-warning">
+                    <p><em><b>Lưu ý:</b> Hãy đảm bảo cột có đế chắc chắn, không nghiêng và cao ít nhất bằng em ấy để mèo
+                            nhà bạn có tư thế đứng tốt nhất khi cào móng.</em></p>
+                </div>
+                <li id="li-meo">Đồ chơi</li>
+                <div class="row">
+                    <div class="col-2 offset-2">
+                        <img class="help-hinhanh" src="../../images/do-choi-meo.png" alt="">
+                    </div>
+
+                    <div class="col-6 offset-2">
+                        <img class="help-hinhanh" src="../../images/do-choi-meo(2).png" alt="">
+                    </div>
+                </div>
+                <p id="p-meo">
+                    Mèo rất thích chơi đùa, nhất là chơi đùa một mình với các đồ chơi của chúng. Vì thế bạn nên trang bị
+                    cho mèo nhà mình những loại đồ chơi ưa thích và an toàn đối với chúng.
+                    <br><br>
+                    Để tránh nguy cơ mèo mắc nghẹn đồ chơi, bạn không nên cho chúng chơi với những vật có kích thước nhỏ
+                    hoặc dễ bị xé
+                    chẳng hạn như chuông nhỏ, lông vũ hoặc xí ngầu. Kiểm tra từng món đồ chơi để đảm bảo rằng chúng an
+                    toàn cho mèo trước khi đưa chúng cho em ấy chơi nhé.
+                </p>
+                <li id="li-meo">Vòng cổ và thẻ tên</li>
+                <div class="row">
+                    <div class="col-2 offset-2">
+                        <img class="help-hinhanh" src="../../images/vongco-meo.jpg" alt="">
+                    </div>
+
+                    <div class="col-6 offset-2">
+                        <img class="help-hinhanh" src="../../images/vongco-meo(2).jpg" alt="">
+                    </div>
+                </div>
+                <p id="p-meo">Mèo của bạn nên đeo vòng cổ có thẻ tên mọi lúc, mọi nơi. Trên thẻ phải có tên, địa chỉ và
+                    số điện thoại của bạn. Vòng cổ phải
+                    có bộ phận tự động thả ra nếu không may mèo bị mắc kẹt vào thứ gì đó, chẳng hạn như cành cây.
+                    <br><br>
+                    Hãy đảm bảo chiếc vòng vừa vặn và không gây khó chịu cho cổ mèo hoặc ảnh hưởng đến hô hấp của chúng.
+                    Một nguyên tắc phổ biến để xác định điều này là đặt hai ngón tay của bạn vào, nếu nó đủ chỗ cho hai
+                    ngón tay thì cũng đủ chỗ cho chiếc cổ của mèo.
+                </p>
+                <li id="li-meo">Chén ăn</li>
+                <div class="row">
+                    <div class="col-2 offset-2">
+                        <img class="help-hinhanh" src="../../images/chen-thucan-meo.png" alt="">
+                    </div>
+
+                    <div class="col-6 offset-2">
+                        <img class="help-hinhanh" src="../../images/chen-thucan-meo(2).png" alt="">
+                    </div>
+                </div>
+                <p id="p-meo">
+                    Bạn nên chọn những loại chén làm bằng chất liệu kim loại, thủy tinh hay sứ, tránh dùng đồ nhựa vì
+                    nó có mùi làm cho nhiều chú mèo của bạn khó chịu.
+                    <br><br>
+                    Bạn cũng nên chuẩn bị hai chén khác nhau, lưu ý chọn loại chắc chắn có phần đế chống trượt để giữ
+                    không cho thức ăn
+                    và nước vương vãi ra ngoài. Thêm vào đó, chén ăn và chén uống nên được vệ sinh một lần một ngày, tốt
+                    nhất là sau khi bé ăn xong.
+                </p>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="text-center text-lg-start bg-white text-muted">
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+
+            <div class="me-5 d-none d-lg-block">
+                <span>Kết nối với chúng tôi trên các mạng xã hội:</span>
+            </div>
+
+            <div>
+                <a href="#" class="text-decoration-none me-4 link-secondary">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="#" class="text-decoration-none me-4 link-secondary">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="#" class="text-decoration-none me-4 link-secondary">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="#" class="text-decoration-none me-4 link-secondary">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+            </div>
+
+        </section>
+
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+
+                <div class="row mt-3">
+
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fa fa-diamond me-2"></i>MP Pet
+                        </h6>
+                        <p>
+                            MP Pet là nơi giải đáp thắc mắc cùng những kiến thức chăm sóc dành cho thú cưng của bạn.
+                            Nơi mang đến cho bạn những trải nghiệm tuyệt vời khi bắt đầu nuôi thú cưng.
+                        </p>
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                        <h6 class="text-uppercase fw-bold mb-4">Về chúng tôi</h6>
+                        <p>
+                            <a href="#!" class="text-decoration-none text-reset">Giới thiệu</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-decoration-none text-reset">Trang chủ</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                        <h6 class="text-uppercase fw-bold mb-4">Chính sách</h6>
+                        <p>
+                            <a href="#!" class="text-decoration-none text-reset">Chính sách bảo mật</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-decoration-none text-reset">Điều khoản dịch vụ</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-decoration-none text-reset">Vận chuyển & giao nhận</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                        <h6 class="text-uppercase fw-bold mb-4">Liên hệ</h6>
+                        <p><i class="fa fa-home me-3"></i> VietNam, Can Tho B3412</p>
+                        <p><i class="fa fa-envelope me-3 "></i>
+                            mppet@gmail.com
+                        </p>
+                        <p><i class="fa fa-phone me-3"></i> + 0327096727</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="text-center p-3" style="background-color: #d7d7d7;">
+            © 2021 Copyright:
+            <a class="text-decoration-none text-reset fw-bold" href="">mppet.com</a>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
